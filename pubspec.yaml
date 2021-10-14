@@ -1,0 +1,31 @@
+name: jameswidget
+description: JamesDev
+version: 0.0.1
+homepage: https://www.youtube.com/channel/UCjpik_Cbt0SeE5kBzao4nqg
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.20.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+  http:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.example.jameswidget
+        pluginClass: JameswidgetPlugin
+      ios:
+        pluginClass: JameswidgetPlugin
+      web:
+        pluginClass: JameswidgetWeb
+        fileName: jameswidget_web.dart
