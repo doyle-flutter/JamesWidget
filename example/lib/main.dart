@@ -28,8 +28,7 @@ class _PageState extends State<Page> {
   @override
   void initState() {
     initPlatformState();
-    // firebaseEMailSigninController = FirebaseEMailSigninController(firebaseApiKey: "YourKey", email: "UserEmaile", pw: "UserPW",);
-    firebaseEMailSigninController = FirebaseEMailSigninController(firebaseApiKey: "AIzaSyB23Q1LlJxNKBSgGxmMKeBUdUdO8zQ4O1Q", email: "UserEmaile", pw: "UserPW",);
+    firebaseEMailSigninController = FirebaseEMailSigninController(firebaseApiKey: "YourKey", email: "UserEmaile", pw: "UserPW",);
     emailController = TextEditingController()
       ..addListener(() {
         if(firebaseEMailSigninController == null || emailController == null) return;
