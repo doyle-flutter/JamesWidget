@@ -4,7 +4,7 @@ import 'package:jameswidget_example/firebase/auth/sign_up_page.dart';
 import 'package:jameswidget_example/firebase/database/realtime/realtime_page.dart';
 
 void main() => runApp(const MyApp());
-const String firebaseWebApiKey = "AIzaSyB23Q1LlJxNKBSgGxmMKeBUdUdO8zQ4O1Q";
+const String firebaseWebApiKey = "";
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
